@@ -1,0 +1,2987 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <title>Harvard Pre-Collegiate Coding Competition</title>
+    <meta name='description'
+        content="The Harvard Pre-Collegiate Coding Competition is a programming competition for international precollege students.">
+    <meta name='robots' content='max-image-preview:large'>
+    <meta name="keywords" content="Harvard, Pre-Collegiate, coding, Competition">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" id="all-css-4"
+        href="https://www.harvard.edu/_static/??-eJzTLy/QzcxLzilNSS3WzyrWz01NyUxMzUnNTc0rQeEU5CRWphbp5qSmJyZX6uVm5uklFxfr6OPTDpRD5sM02efaGpobGxkZmBkYWAIARIUu2Q=="
+        type="text/css" media="all">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+
+
+    <style id="wp-parsely-recommendations-style-inline-css">
+        .parsely-recommendations-list-title {
+            font-size: 1.2em
+        }
+
+        .parsely-recommendations-list {
+            list-style: none;
+            padding: unset
+        }
+
+        .parsely-recommendations-cardbody {
+            overflow: hidden;
+            padding: .8em;
+            text-overflow: ellipsis;
+            white-space: nowrap
+        }
+
+        .parsely-recommendations-cardmedia {
+            padding: .8em .8em 0
+        }
+    </style>
+    <link rel="stylesheet" id="all-css-4"
+        href="https://www.harvard.edu/_static/??-eJzTLy/QzcxLzilNSS3WzyrWz01NyUxMzUnNTc0rQeEU5CRWphbp5qSmJyZX6uVm5uklFxfr6OPTDpRD5sM02efaGpobGxkZmBkYWAIARIUu2Q=="
+        type="text/css" media="all">
+    <style id="jetpack-sharing-buttons-style-inline-css">
+        .jetpack-sharing-buttons__services-list {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 0;
+            list-style-type: none;
+            margin: 5px;
+            padding: 0
+        }
+
+        .jetpack-sharing-buttons__services-list.has-small-icon-size {
+            font-size: 12px
+        }
+
+        .jetpack-sharing-buttons__services-list.has-normal-icon-size {
+            font-size: 16px
+        }
+
+        .jetpack-sharing-buttons__services-list.has-large-icon-size {
+            font-size: 24px
+        }
+
+        .jetpack-sharing-buttons__services-list.has-huge-icon-size {
+            font-size: 36px
+        }
+
+        @media print {
+            .jetpack-sharing-buttons__services-list {
+                display: none !important
+            }
+        }
+
+        .editor-styles-wrapper .wp-block-jetpack-sharing-buttons {
+            gap: 0;
+            padding-inline-start: 0
+        }
+
+        ul.jetpack-sharing-buttons__services-list.has-background {
+            padding: 1.25em 2.375em
+        }
+    </style>
+    <style id="elasticpress-facet-style-inline-css">
+        .widget_ep-facet input[type=search],
+        .wp-block-elasticpress-facet input[type=search] {
+            margin-bottom: 1rem
+        }
+
+        .widget_ep-facet .searchable .inner,
+        .wp-block-elasticpress-facet .searchable .inner {
+            max-height: 20em;
+            overflow: scroll
+        }
+
+        .widget_ep-facet .term.hide,
+        .wp-block-elasticpress-facet .term.hide {
+            display: none
+        }
+
+        .widget_ep-facet .empty-term,
+        .wp-block-elasticpress-facet .empty-term {
+            opacity: .5;
+            position: relative
+        }
+
+        .widget_ep-facet .empty-term:after,
+        .wp-block-elasticpress-facet .empty-term:after {
+            bottom: 0;
+            content: " ";
+            display: block;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 100%;
+            z-index: 2
+        }
+
+        .widget_ep-facet .level-1,
+        .wp-block-elasticpress-facet .level-1 {
+            padding-left: 20px
+        }
+
+        .widget_ep-facet .level-2,
+        .wp-block-elasticpress-facet .level-2 {
+            padding-left: 40px
+        }
+
+        .widget_ep-facet .level-3,
+        .wp-block-elasticpress-facet .level-3 {
+            padding-left: 60px
+        }
+
+        .widget_ep-facet .level-4,
+        .wp-block-elasticpress-facet .level-4 {
+            padding-left: 5pc
+        }
+
+        .widget_ep-facet .level-5,
+        .wp-block-elasticpress-facet .level-5 {
+            padding-left: 75pt
+        }
+
+        .widget_ep-facet input[disabled],
+        .wp-block-elasticpress-facet input[disabled] {
+            cursor: pointer;
+            opacity: 1
+        }
+
+        .widget_ep-facet .term a,
+        .wp-block-elasticpress-facet .term a {
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            position: relative
+        }
+
+        .widget_ep-facet .term a:hover .ep-checkbox,
+        .wp-block-elasticpress-facet .term a:hover .ep-checkbox {
+            background-color: #ccc
+        }
+
+        .ep-checkbox {
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -ms-flex-negative: 0;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            align-items: center;
+            background-color: #eee;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            flex-shrink: 0;
+            height: 1em;
+            justify-content: center;
+            margin-right: .25em;
+            width: 1em
+        }
+
+        .ep-checkbox:after {
+            border: solid #fff;
+            border-width: 0 .125em .125em 0;
+            content: "";
+            display: none;
+            height: .5em;
+            -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+            width: .25em
+        }
+
+        .ep-checkbox.checked {
+            background-color: #5e5e5e
+        }
+
+        .ep-checkbox.checked:after {
+            display: block
+        }
+    </style>
+    <link rel="stylesheet" id="all-css-8"
+        href="https://www.harvard.edu/wp-content/mu-plugins/search/elasticpress/dist/css/related-posts-block-styles.min.css?m=1730999764g"
+        type="text/css" media="all">
+    <style id="classic-theme-styles-inline-css">
+        /*! This file is auto-generated */
+        .wp-block-button__link {
+            color: #fff;
+            background-color: #32373c;
+            border-radius: 9999px;
+            box-shadow: none;
+            text-decoration: none;
+            padding: calc(.667em + 2px) calc(1.333em + 2px);
+            font-size: 1.125em
+        }
+
+        .wp-block-file__button {
+            background: #32373c;
+            color: #fff;
+            text-decoration: none
+        }
+    </style>
+    <style id="global-styles-inline-css">
+        :root {
+            --wp--preset--aspect-ratio--square: 1;
+            --wp--preset--aspect-ratio--4-3: 4/3;
+            --wp--preset--aspect-ratio--3-4: 3/4;
+            --wp--preset--aspect-ratio--3-2: 3/2;
+            --wp--preset--aspect-ratio--2-3: 2/3;
+            --wp--preset--aspect-ratio--16-9: 16/9;
+            --wp--preset--aspect-ratio--9-16: 9/16;
+            --wp--preset--color--black: #000000;
+            --wp--preset--color--cyan-bluish-gray: #abb8c3;
+            --wp--preset--color--white: #ffffff;
+            --wp--preset--color--pale-pink: #f78da7;
+            --wp--preset--color--vivid-red: #cf2e2e;
+            --wp--preset--color--luminous-vivid-orange: #ff6900;
+            --wp--preset--color--luminous-vivid-amber: #fcb900;
+            --wp--preset--color--light-green-cyan: #7bdcb5;
+            --wp--preset--color--vivid-green-cyan: #00d084;
+            --wp--preset--color--pale-cyan-blue: #8ed1fc;
+            --wp--preset--color--vivid-cyan-blue: #0693e3;
+            --wp--preset--color--vivid-purple: #9b51e0;
+            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+            --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+            --wp--preset--font-size--small: 13px;
+            --wp--preset--font-size--medium: 20px;
+            --wp--preset--font-size--large: 36px;
+            --wp--preset--font-size--x-large: 42px;
+            --wp--preset--spacing--20: 0.44rem;
+            --wp--preset--spacing--30: 0.67rem;
+            --wp--preset--spacing--40: 1rem;
+            --wp--preset--spacing--50: 1.5rem;
+            --wp--preset--spacing--60: 2.25rem;
+            --wp--preset--spacing--70: 3.38rem;
+            --wp--preset--spacing--80: 5.06rem;
+            --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+            --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+            --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+        }
+
+        :where(.is-layout-flex) {
+            gap: 0.5em;
+        }
+
+        :where(.is-layout-grid) {
+            gap: 0.5em;
+        }
+
+        body .is-layout-flex {
+            display: flex;
+        }
+
+        .is-layout-flex {
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .is-layout-flex> :is(*, div) {
+            margin: 0;
+        }
+
+        body .is-layout-grid {
+            display: grid;
+        }
+
+        .is-layout-grid> :is(*, div) {
+            margin: 0;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        .has-black-color {
+            color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-color {
+            color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-color {
+            color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-color {
+            color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-color {
+            color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-color {
+            color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-color {
+            color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-color {
+            color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-color {
+            color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-color {
+            color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-color {
+            color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-color {
+            color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-background-color {
+            background-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-background-color {
+            background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-background-color {
+            background-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-background-color {
+            background-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-background-color {
+            background-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-background-color {
+            background-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-background-color {
+            background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-background-color {
+            background-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-border-color {
+            border-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-border-color {
+            border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-border-color {
+            border-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-border-color {
+            border-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-border-color {
+            border-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-border-color {
+            border-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-border-color {
+            border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-border-color {
+            border-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+            background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+        }
+
+        .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+            background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+        }
+
+        .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+        }
+
+        .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+            background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+        }
+
+        .has-cool-to-warm-spectrum-gradient-background {
+            background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+        }
+
+        .has-blush-light-purple-gradient-background {
+            background: var(--wp--preset--gradient--blush-light-purple) !important;
+        }
+
+        .has-blush-bordeaux-gradient-background {
+            background: var(--wp--preset--gradient--blush-bordeaux) !important;
+        }
+
+        .has-luminous-dusk-gradient-background {
+            background: var(--wp--preset--gradient--luminous-dusk) !important;
+        }
+
+        .has-pale-ocean-gradient-background {
+            background: var(--wp--preset--gradient--pale-ocean) !important;
+        }
+
+        .has-electric-grass-gradient-background {
+            background: var(--wp--preset--gradient--electric-grass) !important;
+        }
+
+        .has-midnight-gradient-background {
+            background: var(--wp--preset--gradient--midnight) !important;
+        }
+
+        .has-small-font-size {
+            font-size: var(--wp--preset--font-size--small) !important;
+        }
+
+        .has-medium-font-size {
+            font-size: var(--wp--preset--font-size--medium) !important;
+        }
+
+        .has-large-font-size {
+            font-size: var(--wp--preset--font-size--large) !important;
+        }
+
+        .has-x-large-font-size {
+            font-size: var(--wp--preset--font-size--x-large) !important;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        :root :where(.wp-block-pullquote) {
+            font-size: 1.5em;
+            line-height: 1.6;
+        }
+    </style>
+    <link rel="stylesheet" id="all-css-14"
+        href="https://www.harvard.edu/_static/??-eJyVjEEKgCAQAD+UrRJll+gtYhstqCvuQt/PQz2g28AwA3c1kYtiUdALMwpEbghBBLWzCBwkr4NQq1HmpFTHTGXseoBfh5OSYpOv3vPm/OQWa+fVP4qAMxI="
+        type="text/css" media="all">
+    <link rel="stylesheet" id="tribe-styles-master-css"
+        href="https://www.harvard.edu/wp-content/themes/core/assets/css/dist/theme/master.min.css?ver=b58a2b62d48d56319b1cbc25ec30268737e86cc0622dc2c7af7e23d0d7f0699e88b07c34cae3ded31b6d18c17025e0accf73c43ebac7eed254917857041f96bd"
+        media="all">
+    <link rel="stylesheet" id="print-css-16"
+        href="https://www.harvard.edu/wp-content/themes/core/assets/css/dist/theme/print.min.css?m=1731600587g"
+        type="text/css" media="print">
+    <link rel="stylesheet" id="all-css-16"
+        href="https://www.harvard.edu/wp-content/plugins/searchwp/assets/css/frontend/search-forms.css?m=1718199617g"
+        type="text/css" media="all">
+    <link rel="shortlink" href="https://www.harvard.edu/">
+    <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
+        href="https://www.harvard.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.harvard.edu%2F">
+    <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
+        href="https://www.harvard.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.harvard.edu%2F&amp;format=xml">
+    <link rel="preload"
+        href="https://www.harvard.edu/wp-content/themes/core/assets/js/dist/theme/scripts.min.js?ver=706d86509f625318802d850e3d10ad4a4691386527781cb2cdb300b7f832f2823c800424ca5e87ebc881d00aaf93f286a7650d991345a31539e45856c0bb6197"
+        as="script">
+    <link rel="preload"
+        href="https://www.harvard.edu/wp-content/themes/core/assets/js/dist/theme/vendor.min.js?ver=f552a00acdc2c64461f4981e10135d637df7817949695069cc6e72074c7eb5b5ff7d9d1be3ef611cd29286659ae760e46ea2b093f74483c6de6bea5f4366deab"
+        as="script">
+    <link rel="preload" href="?ver=1.20.2" as="script">
+    <link rel="preload"
+        href="https://www.harvard.edu/wp-content/plugins/wp-parsely/build/loader.js?ver=71d37502d12f3838b80d"
+        as="script">
+
+    <!-- Google Custom Search -->
+    <script>
+        var modernTribe = window.modern_tribe || {};
+        modernTribe.events = {
+            trigger: function (event_type, event_data, el) {
+                var event;
+                try {
+                    event = new CustomEvent(event_type, { detail: event_data });
+                } catch (e) {
+                    event = document.createEvent('CustomEvent');
+                    event.initCustomEvent(event_type, true, true, event_data);
+                }
+                el.dispatchEvent(event);
+            }
+        };
+        var coreCallback = function () {
+            if (document.readyState == 'complete') {
+                modernTribe.events.trigger('google_custom_search_loaded', null, document);
+            } else {
+                google.setOnLoadCallback(function () {
+                    modernTribe.events.trigger('google_custom_search_loaded', null, document);
+                }, true);
+            }
+        };
+        var resultsRenderedCallback = function () {
+            if (document.readyState == 'complete') {
+                modernTribe.events.trigger('google_custom_search_results_rendered', null, document);
+            } else {
+                google.setOnLoadCallback(function () {
+                    modernTribe.events.trigger('google_custom_search_results_rendered', null, document);
+                }, true);
+            }
+        };
+        window.__gcse = {
+            callback: coreCallback,
+            searchCallbacks: {
+                web: {
+                    rendered: 'resultsRenderedCallback',
+                },
+            }
+        };
+        (function () {
+            var cx = '006776768860476326824:n4rl30fjc-e';
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//cse.google.com/cse.js?cx=' + cx;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+        })();
+    </script>
+    <!-- End Google Custom Search -->
+
+    <meta name="theme-color" content="#a51c30">
+    <style>
+        img#wpstats {
+            display: none
+        }
+    </style>
+
+    <!-- End Google Tag Manager for WordPress by gtm4wp.com -->
+    <script
+        type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"WebPage","headline":"Harvard University","url":"https:\/\/www.harvard.edu"}</script>
+    <!--"https://www.harvard.edu/wp-content/uploads/2020/10/cropped-logo-branding-compressed.png?w=32"-->
+    <link rel="icon" href="icons/HPC3_Favicon.png" sizes="32x32">
+    <link rel="icon"
+        href="https://www.harvard.edu/wp-content/uploads/2020/10/cropped-logo-branding-compressed.png?w=192"
+        sizes="192x192">
+    <link rel="apple-touch-icon"
+        href="https://www.harvard.edu/wp-content/uploads/2020/10/cropped-logo-branding-compressed.png?w=180">
+    <meta name="msapplication-TileImage"
+        content="https://www.harvard.edu/wp-content/uploads/2020/10/cropped-logo-branding-compressed.png?w=270">
+    <style id="wp-custom-css">
+        /* on the history page, make the line full height for now */
+        .page-harvard-history .the-follower {
+            height: 100% !important;
+        }
+
+        /* on the history page, make the line not run through the red dots */
+        .page-harvard-history .c-block--width-grid:not(.c-block--layout-center) .b-timeline__container:before,
+        .page-harvard-history .c-block--width-grid:not(.c-block--layout-center) .b-timeline__container:after {
+            z-index: 2;
+        }
+
+        /* temporary fix to give a max-width to the hero underline */
+
+        .b-hero .c-content-block__underline {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 624px;
+        }
+
+        /* colorful hr */
+        .wp-block-separator.colorful-hr {
+            margin-bottom: 20px;
+        }
+
+        .wp-block-separator.colorful-hr:after {
+            border-bottom-width: 20px;
+            height: 20px;
+        }
+
+        .wp-block-separator.colorful-hr.color-ivy:after {
+            border-bottom-color: #52854c;
+        }
+
+        .wp-block-separator.colorful-hr.color-blue:after {
+            border-bottom-color: #4e84c4;
+        }
+
+        .wp-block-separator.colorful-hr.color-saffron:after {
+            border-bottom-color: #d16103;
+        }
+
+        .wp-block-separator.colorful-hr.color-lemon:after {
+            border-bottom-color: #ffdb6d;
+        }
+
+        /* section header - tall line and color options */
+        .b-header.c-block.tall-line .b-header__border:after {
+            border-bottom-width: 20px;
+        }
+
+        .b-header.c-block.color-saffron .b-header__border:after {
+            border-color: #d16103;
+        }
+
+        .b-header.c-block.color-blue .b-header__border:after {
+            border-color: #4e84c4;
+        }
+
+        .b-header.c-block.color-ivy .b-header__border:after {
+            border-color: #52854c;
+        }
+
+        .b-header.c-block.color-lemon .b-header__border:after {
+            border-color: #ffdb6d;
+        }
+
+        .b-header.c-block.color-indigo .b-header__border:after {
+            border-color: #0A2240;
+        }
+
+        .b-header.c-block.color-mortar .b-header__border:after {
+            border-color: #99918F;
+        }
+
+        .b-header.c-block.color-slate .b-header__border:after {
+            border-color: #8996A0;
+        }
+
+        .b-header.c-block.color-crimson .b-header__border:after {
+            border-color: #A51C30;
+        }
+
+        /** 
+Temporary fix for Firefox v 78  
+removed 
+:not(.is-style-XX-Large.has-text-align-center)
+**/
+        .t-sink>.wp-block-group__inner-container> :not(.c-block):not(.alignwide):not(.html-alignwide):not(.align-wide):not(.alignfull):not(.wp-block-embed):not(.is-style-pull-quote) {
+            max-width: 624px;
+            width: calc(100% - 48px);
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /**
+ * Page specific fix
+ * Looking back in 2021 In Focus
+ * remove space above video
+ */
+        .postid-23525 .c-block.hide-border .b-header__container .b-header__border {
+            display: none;
+        }
+
+        .page-id-6392 .c-block.hide-border .b-header__container .b-header__border {
+            display: none;
+        }
+
+        /**
+ * Try out smooth scroll behavior
+ * */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /**
+ * 4/20/2023: Fix for event list display issue, handling both events with link and without
+ * */
+        .b-events-grid.list_layout .g-3-up>.c-card {
+            display: block;
+        }
+
+        .b-events-grid.list_layout .g-3-up>.c-card,
+        .b-events-grid.list_layout .g-3-up>.c-card__b-event {
+            border-top: 1px solid #c4c5c6;
+            padding: 48px 0;
+            margin: 0 24px;
+        }
+
+        .compact-event-list.b-events-grid.list_layout .g-3-up>.c-card,
+        .compact-event-list.b-events-grid.list_layout .g-3-up>.c-card__b-event {
+            padding: 24px 0;
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 1200px) {
+
+            .b-events-grid.list_layout .g-3-up>.c-card,
+            .b-events-grid.list_layout .g-3-up>.c-card__b-event {
+                padding: 24px 0;
+                margin: 0 12px;
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+
+            .b-events-grid.list_layout .g-3-up>.c-card,
+            .b-events-grid.list_layout .g-3-up>.c-card__b-event {
+                padding: 24px 0;
+                margin: 0;
+            }
+        }
+
+        .b-events-grid.list_layout .c-card .c-card {
+            border: 0;
+            padding: 0;
+        }
+
+        /**
+ * 10/17/2023, fix video control issue
+ * **/
+        .c-video__block .c-video {
+            position: relative;
+        }
+
+        /** 
+ * 1/16/2024, Compact margin for side-by-side blocks 
+ * **/
+        .c-block.b-side-by-side {
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+        }
+
+        /** 4/5/2024m Gravity form poll results color fix **/
+        .gform_confirmation_wrapper:not(.gform-theme--framework) .gpoll_container .red .gpoll_ratio_box {
+            background-color: #A51C30;
+        }
+
+        .gform_confirmation_wrapper:not(.gform-theme--framework) .gpoll_container .gpoll_bar_juice:after {
+            background-image: none;
+        }
+
+        .gform_confirmation_wrapper:not(.gform-theme--framework) .gpoll_container .red .gpoll_bar_juice {
+            background-image: linear-gradient(#A51C30, #A51C30);
+            box-shadow: none;
+        }
+
+        #gform_confirmation_wrapper_28 {
+            margin: 0 auto;
+            padding: 25px;
+        }
+    </style>
+
+    <script src="https://www.google.com/cse/static/element/8fa85d58e016b414/cse_element__en.js?usqp=CAI%3D"
+        type="text/javascript"></script>
+    <link type="text/css" href="https://www.google.com/cse/static/element/8fa85d58e016b414/default+en.css"
+        rel="stylesheet">
+    <link type="text/css" href="https://www.google.com/cse/static/style/look/v4/default.css" rel="stylesheet">
+    <style type="text/css">
+        .gsc-control-cse {
+            font-family: arial, sans-serif
+        }
+
+        .gsc-control-cse .gsc-table-result {
+            font-family: arial, sans-serif
+        }
+
+        .gsc-refinementsGradient {
+            background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0))
+        }
+
+        .gsc-control-cse {
+            border-color: #FFFFFF;
+            background-color: #FFFFFF
+        }
+
+        input.gsc-input,
+        .gsc-input-box,
+        .gsc-input-box-hover,
+        .gsc-input-box-focus {
+            border-color: #D9D9D9
+        }
+
+        .gsc-search-button-v2,
+        .gsc-search-button-v2:hover,
+        .gsc-search-button-v2:focus {
+            border-color: #666666;
+            background-color: #CECECE;
+            background-image: none;
+            filter: none
+        }
+
+        .gsc-search-button-v2 svg {
+            fill: #FFFFFF
+        }
+
+        .gsc-tabHeader.gsc-tabhActive,
+        .gsc-refinementHeader.gsc-refinementhActive {
+            color: #CCCCCC;
+            border-color: #CCCCCC;
+            background-color: #FFFFFF
+        }
+
+        .gsc-tabHeader.gsc-tabhInactive,
+        .gsc-refinementHeader.gsc-refinementhInactive {
+            color: #CCCCCC;
+            border-color: #CCCCCC;
+            background-color: #FFFFFF
+        }
+
+        .gsc-webResult.gsc-result,
+        .gsc-results .gsc-imageResult {
+            border-color: #FFFFFF;
+            background-color: #FFFFFF
+        }
+
+        .gsc-webResult.gsc-result:hover {
+            border-color: #FFFFFF;
+            background-color: #F5F5F5
+        }
+
+        .gs-webResult.gs-result a.gs-title:link,
+        .gs-webResult.gs-result a.gs-title:link b,
+        .gs-imageResult a.gs-title:link,
+        .gs-imageResult a.gs-title:link b {
+            color: #3B7AB8
+        }
+
+        .gs-webResult.gs-result a.gs-title:visited,
+        .gs-webResult.gs-result a.gs-title:visited b,
+        .gs-imageResult a.gs-title:visited,
+        .gs-imageResult a.gs-title:visited b {
+            color: #3B7AB8
+        }
+
+        .gs-webResult.gs-result a.gs-title:hover,
+        .gs-webResult.gs-result a.gs-title:hover b,
+        .gs-imageResult a.gs-title:hover,
+        .gs-imageResult a.gs-title:hover b {
+            color: #444444
+        }
+
+        .gs-webResult.gs-result a.gs-title:active,
+        .gs-webResult.gs-result a.gs-title:active b,
+        .gs-imageResult a.gs-title:active,
+        .gs-imageResult a.gs-title:active b {
+            color: #3B7AB8
+        }
+
+        .gsc-cursor-page {
+            color: #3B7AB8
+        }
+
+        a.gsc-trailing-more-results:link {
+            color: #3B7AB8
+        }
+
+        .gs-webResult:not(.gs-no-results-result):not(.gs-error-result) .gs-snippet,
+        .gs-fileFormatType {
+            color: #444444
+        }
+
+        .gs-webResult div.gs-visibleUrl {
+            color: #999999
+        }
+
+        .gs-webResult div.gs-visibleUrl-short {
+            color: #999999
+        }
+
+        .gs-webResult div.gs-visibleUrl-short {
+            display: none
+        }
+
+        .gs-webResult div.gs-visibleUrl-long {
+            display: none
+        }
+
+        .gs-webResult div.gs-visibleUrl-breadcrumb {
+            display: block
+        }
+
+        .gs-promotion div.gs-visibleUrl-short {
+            display: none
+        }
+
+        .gs-promotion div.gs-visibleUrl-long {
+            display: block
+        }
+
+        .gs-promotion div.gs-visibleUrl-breadcrumb {
+            display: none
+        }
+
+        .gsc-cursor-box {
+            border-color: #FFFFFF
+        }
+
+        .gsc-results .gsc-cursor-box .gsc-cursor-page {
+            border-color: #CCCCCC;
+            background-color: #FFFFFF;
+            color: #CCCCCC
+        }
+
+        .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+            border-color: #CCCCCC;
+            background-color: #FFFFFF;
+            color: #CCCCCC
+        }
+
+        .gsc-webResult.gsc-result.gsc-promotion {
+            border-color: #FFFFFF;
+            background-color: #F4EDCA
+        }
+
+        .gsc-completion-title {
+            color: #3B7AB8
+        }
+
+        .gsc-completion-snippet {
+            color: #444444
+        }
+
+        .gs-promotion a.gs-title:link,
+        .gs-promotion a.gs-title:link *,
+        .gs-promotion .gs-snippet a:link {
+            color: #3B7AB8
+        }
+
+        .gs-promotion a.gs-title:visited,
+        .gs-promotion a.gs-title:visited *,
+        .gs-promotion .gs-snippet a:visited {
+            color: #3B7AB8
+        }
+
+        .gs-promotion a.gs-title:hover,
+        .gs-promotion a.gs-title:hover *,
+        .gs-promotion .gs-snippet a:hover {
+            color: #444444
+        }
+
+        .gs-promotion a.gs-title:active,
+        .gs-promotion a.gs-title:active *,
+        .gs-promotion .gs-snippet a:active {
+            color: #3B7AB8
+        }
+
+        .gs-promotion .gs-snippet,
+        .gs-promotion .gs-title .gs-promotion-title-right,
+        .gs-promotion .gs-title .gs-promotion-title-right * {
+            color: #444444
+        }
+
+        .gs-promotion .gs-visibleUrl,
+        .gs-promotion .gs-visibleUrl-short {
+            color: #999999
+        }
+
+        .gcsc-find-more-on-google {
+            color: #3B7AB8
+        }
+
+        .gcsc-find-more-on-google-magnifier {
+            fill: #3B7AB8
+        }
+    </style>
+    <style type="text/css">
+        .gscb_a {
+            display: inline-block;
+            font: 27px/13px arial, sans-serif
+        }
+
+        .gsst_a .gscb_a {
+            color: #a1b9ed;
+            cursor: pointer
+        }
+
+        .gsst_a:hover .gscb_a,
+        .gsst_a:focus .gscb_a {
+            color: #36c
+        }
+
+        .gsst_a {
+            display: inline-block
+        }
+
+        .gsst_a {
+            cursor: pointer;
+            padding: 0 4px
+        }
+
+        .gsst_a:hover {
+            text-decoration: none !important
+        }
+
+        .gsst_b {
+            font-size: 16px;
+            padding: 0 2px;
+            position: relative;
+            user-select: none;
+            -webkit-user-select: none;
+            white-space: nowrap
+        }
+
+        .gsst_e {
+            vertical-align: middle;
+            opacity: 0.55;
+        }
+
+        .gsst_a:hover .gsst_e,
+        .gsst_a:focus .gsst_e {
+            opacity: 0.72;
+        }
+
+        .gsst_a:active .gsst_e {
+            opacity: 1;
+        }
+
+        .gsst_f {
+            background: white;
+            text-align: left
+        }
+
+        .gsst_g {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-top-color: #d9d9d9;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            margin: -1px -3px;
+            padding: 0 6px
+        }
+
+        .gsst_h {
+            background-color: white;
+            height: 1px;
+            margin-bottom: -1px;
+            position: relative;
+            top: -1px
+        }
+
+        .gsib_a {
+            width: 100%;
+            padding: 4px 6px 0
+        }
+
+        .gsib_a,
+        .gsib_b {
+            vertical-align: top
+        }
+
+        .gssb_c {
+            border: 0;
+            position: absolute;
+            z-index: 989
+        }
+
+        .gssb_e {
+            border: 1px solid #ccc;
+            border-top-color: #d9d9d9;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            cursor: default
+        }
+
+        .gssb_f {
+            visibility: hidden;
+            white-space: nowrap
+        }
+
+        .gssb_k {
+            border: 0;
+            display: block;
+            position: absolute;
+            top: 0;
+            z-index: 988
+        }
+
+        .gsdd_a {
+            border: none !important
+        }
+
+        .gsq_a {
+            padding: 0
+        }
+
+        .gssb_a {
+            padding: 0 7px
+        }
+
+        .gssb_a,
+        .gssb_a td {
+            white-space: nowrap;
+            overflow: hidden;
+            line-height: 22px
+        }
+
+        #gssb_b {
+            font-size: 11px;
+            color: #36c;
+            text-decoration: none
+        }
+
+        #gssb_b:hover {
+            font-size: 11px;
+            color: #36c;
+            text-decoration: underline
+        }
+
+        .gssb_g {
+            text-align: center;
+            padding: 8px 0 7px;
+            position: relative
+        }
+
+        .gssb_h {
+            font-size: 15px;
+            height: 28px;
+            margin: 0.2em;
+            -webkit-appearance: button;
+            appearance: button
+        }
+
+        .gssb_i {
+            background: #eee
+        }
+
+        .gss_ifl {
+            visibility: hidden;
+            padding-left: 5px
+        }
+
+        .gssb_i .gss_ifl {
+            visibility: visible
+        }
+
+        a.gssb_j {
+            font-size: 13px;
+            color: #36c;
+            text-decoration: none;
+            line-height: 100%
+        }
+
+        a.gssb_j:hover {
+            text-decoration: underline
+        }
+
+        .gssb_l {
+            height: 1px;
+            background-color: #e5e5e5
+        }
+
+        .gssb_m {
+            color: #000;
+            background: #fff
+        }
+
+        .gssb_a {
+            padding: 0 9px
+        }
+
+        .gsib_a {
+            padding: 5px 9px 4px 9px
+        }
+
+        .gscb_a {
+            line-height: 27px
+        }
+
+        .gssb_e {
+            border: 0
+        }
+
+        .gssb_l {
+            margin: 5px 0
+        }
+
+        input.gsc-input::-webkit-input-placeholder {
+            font-size: 14px
+        }
+
+        input.gsc-input:-moz-placeholder {
+            font-size: 14px
+        }
+
+        input.gsc-input::-moz-placeholder {
+            font-size: 14px
+        }
+
+        input.gsc-input:-ms-input-placeholder {
+            font-size: 14px
+        }
+
+        input.gsc-input:focus::-webkit-input-placeholder {
+            color: transparent
+        }
+
+        input.gsc-input:focus:-moz-placeholder {
+            color: transparent
+        }
+
+        input.gsc-input:focus::-moz-placeholder {
+            color: transparent
+        }
+
+        input.gsc-input:focus:-ms-input-placeholder {
+            color: transparent
+        }
+
+        .gssb_c .gsc-completion-container {
+            position: static
+        }
+
+        .gssb_c {
+            z-index: 5000
+        }
+
+        .gsc-completion-container table {
+            background: transparent;
+            font-size: inherit;
+            font-family: inherit
+        }
+
+        .gssb_c>tbody>tr,
+        .gssb_c>tbody>tr>td,
+        .gssb_d,
+        .gssb_d>tbody>tr,
+        .gssb_d>tbody>tr>td,
+        .gssb_e,
+        .gssb_e>tbody>tr,
+        .gssb_e>tbody>tr>td {
+            padding: 0;
+            margin: 0;
+            border: 0
+        }
+
+        .gssb_a table,
+        .gssb_a table tr,
+        .gssb_a table tr td {
+            padding: 0;
+            margin: 0;
+            border: 0
+        }
+    </style>
+</head>
+
+<body class="large-scrolled">
+
+    <style>
+        ul{
+            list-style-type: disc; 
+            margin-left: 17px;
+        }
+    </style>
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark" style="padding: 0.5rem">
+
+        <div class="container" style="max-width: 100%; flex-direction: column;">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMobileToggler"
+                aria-controls="navbarMobileToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMobileToggler">
+                <ul class="navbar-nav ml-auto ml-lg-0 mr-lg-auto">
+                    <li class="nav-item" id="inactivator" style="padding-left: 8px;">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown active" style="padding-left: 8px;">
+                        <a class="nav-link dropdown-toggle" href="#" id="organizationDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                            style="padding-left: 0.25rem; padding-right: 0.25rem;">
+                            HPC<sup>3</sup> 2025
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="organizationDropdown">
+                            <a class="dropdown-item" href="2025info.html">Info</a>
+                            <a class="dropdown-item" href="2025submissions.html">Problem Submissions</a>
+                            <a class="dropdown-item" style="background-color: #007bff; color: white;">Competition
+                                Rules</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="padding-left: 8px;">
+                        <a class="nav-link dropdown-toggle" href="#" id="organizationDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            HPC<sup>3</sup> 2024
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="organizationDropdown">
+
+                            <a class="dropdown-item" href="2024awards.html">Awards</a>
+                            <a class="dropdown-item" href="2024placement.html">Placement</a>
+                            <a class="dropdown-item" href="2024problems.html">Problems</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="padding-left: 8px;">
+                        <a class="nav-link dropdown-toggle" href="#" id="organizationDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Competition Archive
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="organizationDropdown">
+                            <a class="dropdown-item" href="pastcompetitions.html">Previous Competitions</a>
+                            <a class="dropdown-item" href="pastproblems.html">Previous Problems</a>
+                            <a class="dropdown-item" href="statistics.html">Statistics</a>
+                            <a class="dropdown-item" href="achievers.html">Hall of Fame</a>
+                        </div>
+                    </li>
+                    <li class="nav-item d-sm-none d-md-block" style="padding-left: 8px;">
+                        <a class="nav-link" href="faq.html">Frequently Asked Questions</a>
+                    </li>
+                    <li class="nav-item d-sm-none d-md-block" style="padding-left: 8px;">
+                        <a class="nav-link" href="about.html">About HPC<sup>3</sup></a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+
+    </div>
+
+
+    <div
+        style="position: relative;  color: white; background-image: url(images/hpc_practising.jpg); background-repeat: no-repeat; background-position: 65% 220%; opacity: 1; background-attachment: fixed;">
+
+        <div class="row">
+            <div class="col-12">
+                <h2
+                    style="margin-top: 90px; margin-bottom: 12px; font-size: 4rem; text-align: center; font-weight: 1000; color: #FFF;">
+                    Competition Rules</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="easy-light-gray-bg" style="background-color: #CECECE;">
+        <div class="container"
+            style="padding-top: 64px; padding-bottom: 49px; max-width: 100%; padding-right: 5%; padding-left: 5%; color: #000;">
+            <div data-mesh-id="comp-lsc1xe4jinlineContent-gridContainer" data-testid="mesh-container-content">
+                <div id="comp-lsc3dfg7" class="HcOXKn c9GqVL QxJLC3 lq2cno YQcXTT comp-lsc3dfg7 wixui-rich-text"
+                    data-testid="richTextElement">
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px; line-height:1.75em;"><span
+                            style="font-size:15px;" class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text">Competitors have the responsibility to ensure
+                                    that they fully understand these rules and abide by them during the competition.
+                                    </span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text"><span
+                                        class="wixui-rich-text__text">​</span></span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                            class="color_15 wixui-rich-text__text"><span style="font-size:15px;"
+                                class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                    class="wixui-rich-text__text"><span
+                                        style="font-family:poppins-extralight,poppins,sans-serif;"
+                                        class="wixui-rich-text__text"><span
+                                            class="wixui-rich-text__text">​</span></span></span></span></span></p>
+
+                    <h2 class="font_2 wixui-rich-text__text" style="font-size:20px;"><span
+                            style="font-family:barlow-medium,barlow,sans-serif;" class="wixui-rich-text__text"><span
+                                style="color:#A3340E; font-weight:bold;" class="wixui-rich-text__text"><span style="font-size:20px;"
+                                    class="wixui-rich-text__text">Grading System</span></span></span></h2>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                            class="wixui-rich-text__text"><span style="font-size:15px;"
+                                class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                    class="wixui-rich-text__text"><span
+                                        style="font-family:poppins-extralight,poppins,sans-serif;"
+                                        class="wixui-rich-text__text">Grading and evaluation take place on the grading
+                                        system, which provides a similar execution environment for every solution
+                                        submission. The workstations have network access to the grading
+                                        system.</span></span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text"><span
+                                        class="wixui-rich-text__text">​</span></span></span></span></p>
+
+                    <h2 class="font_2 wixui-rich-text__text" style="font-size:20px;"><span
+                            style="font-family:arial,ｍｓ ｐゴシック,ms pgothic,돋움,dotum,helvetica,sans-serif;"
+                            class="wixui-rich-text__text"><span style="color:#A3340E;"
+                                class="wixui-rich-text__text"><span style="font-size:20px;"
+                                    class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                        class="wixui-rich-text__text">Problems</span></span></span></span></h2>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                            class="wixui-rich-text__text"><span style="font-size:15px;"
+                                class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                    class="wixui-rich-text__text"><span
+                                        style="font-family:poppins-extralight,poppins,sans-serif;"
+                                        class="wixui-rich-text__text">Each contestant will receive the official English
+                                        version of the problems in an envelope on each contest day. The team leaders can
+                                        translate the problem statements for contestants and the translated statements will
+                                        be provided in the envelope with the English version. Each contestant will have
+                                        online access to the official English version of the problem statements and all
+                                        translations in electronic format (PDF).</span></span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;">&nbsp;</p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                            class="wixui-rich-text__text"><span style="font-size:15px;"
+                                class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                    class="wixui-rich-text__text"><span
+                                        style="font-family:poppins-extralight,poppins,sans-serif;"
+                                        class="wixui-rich-text__text">Each problem is either a programming problem (the
+                                        solution is source code) or an output-only problem (the solution is a set of output
+                                        files). Each problem is divided into some number of subproblems, each worth a portion
+                                        of the total points.&nbsp;</span></span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;">&nbsp;</p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                            class="wixui-rich-text__text"><span style="font-size:15px;"
+                                class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                    class="wixui-rich-text__text"><span
+                                        style="font-family:poppins-extralight,poppins,sans-serif;"
+                                        class="wixui-rich-text__text">For each programming problem, time and memory limits
+                                        are specified. In general, time and memory limits are generous (for example,
+                                        double those required by the expected solution). The memory limit is on the
+                                        overall memory usage including executable code size, stack, dynamically
+                                        allocated memory, etc.</span></span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;">&nbsp;</p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                            class="wixui-rich-text__text"><span style="font-size:15px;"
+                                class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                    class="wixui-rich-text__text"><span
+                                        style="font-family:poppins-extralight,poppins,sans-serif;"
+                                        class="wixui-rich-text__text">For programming problems, the contestants can download a zip
+                                        file from the grading system. The file contains interface
+                                        files, a sample grading program, and an example implementation of a required
+                                        source file. This example implementation shows an example of using the problem’s
+                                        interface but does not solve the problem. The sample grader provided is not the same
+                                        as the official grader used by the grading system.
+                                    </span></span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                            class="wixui-rich-text__text"><span style="font-size:15px;"
+                                class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                    class="wixui-rich-text__text"><span
+                                        style="font-family:poppins-extralight,poppins,sans-serif;"
+                                        class="wixui-rich-text__text"><span
+                                            class="wixui-rich-text__text">​</span></span></span></span></span></p>
+
+                    <h2 class="font_2 wixui-rich-text__text" style="font-size:20px;"><span
+                            style="font-family:arial,ｍｓ ｐゴシック,ms pgothic,돋움,dotum,helvetica,sans-serif;"
+                            class="wixui-rich-text__text"><span style="color:#A3340E;"
+                                class="wixui-rich-text__text"><span style="font-size:20px; font-weight:bold;"
+                                    class="wixui-rich-text__text">Solutions and Submissions</span></span></span></h2>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                            class="wixui-rich-text__text"><span style="font-size:15px;"
+                                class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                    class="wixui-rich-text__text"><span
+                                        style="font-family:poppins-extralight,poppins,sans-serif;"
+                                        class="wixui-rich-text__text">Contestants submit their solutions for problems by
+                                        using the grading system. Unless stated otherwise, the following restrictions
+                                        apply to the submissions:</span></span></span></span></p>
+
+                    <ul class="font_8 wixui-rich-text__text"
+                        style=" font-family:poppins-extralight,poppins,sans-serif; font-size:15px; font-weight:bold;">
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                                    class="wixui-rich-text__text"><span style="font-size:15px;"
+                                        class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                            class="wixui-rich-text__text"><span
+                                                style="font-family:poppins-extralight,poppins,sans-serif;"
+                                                class="wixui-rich-text__text">In each programming
+                                                problem:</span></span></span></span></p>
+
+                            <ul class="font_8 wixui-rich-text__text"
+                                style=" font-family:poppins-extralight,poppins,sans-serif; font-size:15px; font-weight:bold;">
+                                <li class="wixui-rich-text__text">
+                                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                             class="wixui-rich-text__text"><span
+                                                style="font-size:15px;" class="wixui-rich-text__text"><span
+                                                    style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                                        style="font-family:poppins-extralight,poppins,sans-serif;"
+                                                        class="wixui-rich-text__text">Each submitted solution must be
+                                                        written in C++ and its size must not exceed 50 KiB. Compilation
+                                                        of the program by the evaluation server must finish in at most
+                                                        10 seconds and use at most 512 MiB of
+                                                        memory.</span></span></span></span></p>
+                                </li>
+                                <li class="wixui-rich-text__text">
+                                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                             class="wixui-rich-text__text"><span
+                                                style="font-size:15px;" class="wixui-rich-text__text"><span
+                                                    style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                                        style="font-family:poppins-extralight,poppins,sans-serif;"
+                                                        class="wixui-rich-text__text">Submissions must not perform
+                                                        explicit input and output operations; instead, data must only be
+                                                        exchanged through the interfaces specified in the problem
+                                                        statement. In particular, direct access to any file, including
+                                                        standard input or standard output, is forbidden (however,
+                                                        writing to standard error is
+                                                        allowed).</span></span></span></span></p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                                    class="wixui-rich-text__text"><span style="font-size:15px;"
+                                        class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                            class="wixui-rich-text__text"><span
+                                                style="font-family:poppins-extralight,poppins,sans-serif;"
+                                                class="wixui-rich-text__text">In each output-only problem, each submission
+                                                is a set of output files.</span></span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                                    class="wixui-rich-text__text"><span style="font-size:15px;"
+                                        class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                            class="wixui-rich-text__text"><span
+                                                style="font-family:poppins-extralight,poppins,sans-serif;"
+                                                class="wixui-rich-text__text">Contestants may submit a solution to each
+                                                problem at most once per minute. This restriction does not apply in the
+                                                last 15 minutes of the contest round.</span></span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                                    class="wixui-rich-text__text"><span style="font-size:15px;"
+                                        class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                            class="wixui-rich-text__text"><span
+                                                style="font-family:poppins-extralight,poppins,sans-serif;"
+                                                class="wixui-rich-text__text">Contestants may perform at most 50
+                                                submissions for each problem.</span></span></span></span></p>
+                        </li>
+                    </ul>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;">&nbsp;</p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                            class="wixui-rich-text__text"><span style="font-size:15px;"
+                                class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                    class="wixui-rich-text__text"><span
+                                        style="font-family:poppins-extralight,poppins,sans-serif;"
+                                        class="wixui-rich-text__text">Using multiple threads is allowed. Note that the
+                                        running time of the submission will be counted as a sum of running times of all
+                                        threads. E.g., if there were two threads running for 5 seconds each (thus, the
+                                        program finishes in 5 seconds), then the running time of the submission will be
+                                        10 seconds.</span></span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                            class="wixui-rich-text__text"><span class="wixui-rich-text__text">​</span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                            class="wixui-rich-text__text"><span style="font-size:15px;"
+                                class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                    class="wixui-rich-text__text"><span
+                                        style="font-family:poppins-extralight,poppins,sans-serif;"
+                                        class="wixui-rich-text__text">The technical committee may provide alternative
+                                        methods for submitting the solutions for grading.</span></span></span></span>
+                    </p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text"><span
+                                        class="wixui-rich-text__text">​</span></span></span></span></p>
+
+                    <h2 class="font_2 wixui-rich-text__text" style="font-size:20px;"><span
+                            style="font-family:arial,ｍｓ ｐゴシック,ms pgothic,돋움,dotum,helvetica,sans-serif;"
+                            class="wixui-rich-text__text"><span style="color:#A3340E;"
+                                class="wixui-rich-text__text"><span style="font-size:20px;"
+                                    class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                        class="wixui-rich-text__text">Scoring</span></span></span></span></h2>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                            class="wixui-rich-text__text"><span style="font-size:15px;"
+                                class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                    class="wixui-rich-text__text"><span
+                                        style="font-family:poppins-extralight,poppins,sans-serif;"
+                                        class="wixui-rich-text__text">The scores for each problem will be calculated as
+                                        follows:</span></span></span></span></p>
+
+                    <ul class="font_8 wixui-rich-text__text"
+                        style=" font-family:poppins-extralight,poppins,sans-serif; font-size:15px; font-weight:bold;">
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                                    class="wixui-rich-text__text"><span style="font-size:15px;"
+                                        class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                            class="wixui-rich-text__text"><span
+                                                style="font-family:poppins-extralight,poppins,sans-serif;"
+                                                class="wixui-rich-text__text">Each subproblem consists of some number of
+                                                test cases. Unless specified otherwise, in each programming problem the
+                                                submission is executed once per test case.</span></span></span></span>
+                            </p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                                    class="wixui-rich-text__text"><span style="font-size:15px;"
+                                        class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                            class="wixui-rich-text__text"><span
+                                                style="font-family:poppins-extralight,poppins,sans-serif;"
+                                                class="wixui-rich-text__text">For each submission, the score for each
+                                                test case is calculated based on the program execution and/or the
+                                                output.</span></span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                                    class="wixui-rich-text__text"><span style="font-size:15px;"
+                                        class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                            class="wixui-rich-text__text"><span
+                                                style="font-family:poppins-extralight,poppins,sans-serif;"
+                                                class="wixui-rich-text__text">The program execution on each test case is
+                                                subject to time and memory limits, which are given in the grading
+                                                system. If the program exceeds these limits, it receives 0 points for
+                                                this test case.</span></span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                                    class="wixui-rich-text__text"><span style="font-size:15px;"
+                                        class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                            class="wixui-rich-text__text"><span
+                                                style="font-family:poppins-extralight,poppins,sans-serif;"
+                                                class="wixui-rich-text__text">For each submission, the score for each
+                                                subproblem is the minimum of the scores for the test cases in the subproblem
+                                                unless otherwise stated in the problem
+                                                statement.</span></span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                                    class="wixui-rich-text__text"><span style="font-size:15px;"
+                                        class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                            class="wixui-rich-text__text"><span
+                                                style="font-family:poppins-extralight,poppins,sans-serif;"
+                                                class="wixui-rich-text__text">The final score for each subproblem is the
+                                                maximum of the scores for this subproblem across all
+                                                submissions.</span></span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                                    class="wixui-rich-text__text"><span style="font-size:15px;"
+                                        class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                            class="wixui-rich-text__text"><span
+                                                style="font-family:poppins-extralight,poppins,sans-serif;"
+                                                class="wixui-rich-text__text">The final score for each problem is the sum
+                                                of the scores for its subproblems. This sum is rounded to the nearest 2
+                                                decimal places.</span></span></span></span></p>
+                        </li>
+                    </ul>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                            class="wixui-rich-text__text"><span style="font-size:15px;"
+                                class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                    class="wixui-rich-text__text"><span
+                                        style="font-family:poppins-extralight,poppins,sans-serif;"
+                                        class="wixui-rich-text__text">For example, consider a contestant who made two
+                                        submissions on a problem that contains two subproblems. If the first submitted
+                                        solution got 30 points for the first subproblem and 10 points for the second
+                                        subproblem, and the second solution got 0 points for the first subproblem and 40
+                                        points for the second subproblem, then the final score for this problem will be
+                                        70.</span></span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text"><span
+                                        class="wixui-rich-text__text">​</span></span></span></span></p>
+
+                    <h2 class="font_2 wixui-rich-text__text" style="font-size:20px;"><span style="font-size:20px;"
+                            class="wixui-rich-text__text"><span
+                                style="font-family:arial,ｍｓ ｐゴシック,ms pgothic,돋움,dotum,helvetica,sans-serif;"
+                                class="wixui-rich-text__text"><span style="color:#A3340E;"
+                                    class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                        class="wixui-rich-text__text">Feedback</span></span></span></span></h2>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text">Contestants can use the grading system to view the
+                                    status of their submissions and get a short report on the compilation results of
+                                    their source code.</span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text">For every submission, the grading system reports the
+                                    score for each subproblem. If a subproblem is not fully solved, the grading system gives a
+                                    feedback only for the first test case among the lowest scored test cases in the
+                                    subproblem. The feedback includes the test case number and one of the following
+                                    reasons:</span></span></span></p>
+
+                    <ul class="font_8 wixui-rich-text__text"
+                        style="font-family:poppins-extralight,poppins,sans-serif; font-size:15px; font-weight:bold;">
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">Output is correct</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">Output isn’t correct</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">Output is partially
+                                            correct</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">Execution timed out</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">Execution killed (could be triggered by
+                                            violating memory limits)</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">Execution failed because the return code was
+                                            nonzero</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">Protocol Violation</span></span></span></p>
+                        </li>
+                    </ul>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text">A contestant may receive a “Protocol Violation”
+                                    feedback if their program does not follow the correct protocol described in the
+                                    problem statement. Some possible reasons for a submission receiving this feedback
+                                    include:</span></span></span></p>
+
+                    <ul class="font_8 wixui-rich-text__text"
+                        style="font-family:poppins-extralight,poppins,sans-serif; font-size:15px; font-weight:bold;">
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">Reading from standard input or printing to standard output</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">Calling exit()</span></span></span></p>
+                        </li>
+                    </ul>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px; line-height:1.75em;"><span
+                            style="font-size:15px;" class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text">However, it should be noted that submissions that
+                                    exhibit the above behavior may not always result in “Protocol Violation” feedback
+                                    and the list above is also not exhaustive.</span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text">Unless otherwise stated, the “Output is partially
+                                    correct” feedback is displayed when a submission receives partial score for a
+                                    subproblem with partial scoring.</span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text">The test cases are ordered the same way in all the
+                                    submissions. No information on the actual test cases, the output produced by the
+                                    contestant solution, or any other execution details will be given to the
+                                    contestant.</span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text">It should be noted that the score reported in the
+                                    feedback is only provisional. There are two ways how this score may change after it
+                                    has been reported to the contestant:</span></span></span></p>
+
+                    <ul class="font_8 wixui-rich-text__text"
+                        style="font-family:poppins-extralight,poppins,sans-serif; font-size:15px; font-weight:bold;">
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">Due to a successful appeal after the
+                                            contest.</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">In some cases, the contestants’ submissions
+                                            may be re-evaluated. This re-evaluation may sometimes lead to a different
+                                            total score (e.g. if a solution behaves nondeterministically or runs very
+                                            close to the time or memory limit). In such cases, the final score for the
+                                            submission is the score for its latest re-evaluation. This change in scoring
+                                            cannot be appealed. Note that the final score for each subproblem is still the
+                                            maximum score over all submissions.</span></span></span></p>
+                        </li>
+                    </ul>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;">&nbsp;</p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                            class="wixui-rich-text__text"><span style="font-size:15px;"
+                                class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                    class="wixui-rich-text__text"><span
+                                        style="font-family:poppins-extralight,poppins,sans-serif;"
+                                        class="wixui-rich-text__text">In the event of an error with the test data, the
+                                        Scientific Committee will attempt to, but is not obligated to follow the
+                                        following process:</span></span></span></span></p>
+
+                    <ul class="font_8 wixui-rich-text__text"
+                        style=" font-family:poppins-extralight,poppins,sans-serif; font-size:15px; font-weight:bold;">
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                                    class="wixui-rich-text__text"><span style="font-size:15px;"
+                                        class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                            class="wixui-rich-text__text"><span
+                                                style="font-family:poppins-extralight,poppins,sans-serif;"
+                                                class="wixui-rich-text__text">Every attempt will be made to fix test
+                                                data and regrade all solutions as quickly as
+                                                possible.</span></span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                                    class="wixui-rich-text__text"><span style="font-size:15px;"
+                                        class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                            class="wixui-rich-text__text"><span
+                                                style="font-family:poppins-extralight,poppins,sans-serif;"
+                                                class="wixui-rich-text__text">Additional test data may be added only
+                                                when the grading data significantly differs from the intention of the
+                                                Scientific Committee from before the contest, e.g., the test data
+                                                prepared before the contest was not properly uploaded to the grading
+                                                system.</span></span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                                    class="wixui-rich-text__text"><span style="font-size:15px;"
+                                        class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                            class="wixui-rich-text__text"><span
+                                                style="font-family:poppins-extralight,poppins,sans-serif;"
+                                                class="wixui-rich-text__text">Late detections of issues, especially
+                                                during the last 2 hours of the contest, may be grounds for extending the
+                                                length of the contest.</span></span></span></span></p>
+                        </li>
+                    </ul>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;">&nbsp;</p>
+
+                    <h2 class="font_2 wixui-rich-text__text" style="font-size:20px;"><span style="color:#A3340E;"
+                            class="wixui-rich-text__text"><span
+                                style="font-family:arial,ｍｓ ｐゴシック,ms pgothic,돋움,dotum,helvetica,sans-serif;"
+                                class="wixui-rich-text__text"><span style="font-size:20px;"
+                                    class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                        class="wixui-rich-text__text">Quarantine</span></span></span></span></h2>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text">In order to protect the confidentiality of the problems,
+                                    all direct and indirect contacts and communication between contestants and
+                                    delegation leaders are prohibited between the moment where problems for a competition
+                                    day are presented to the members of the GA and the end of the competition on the
+                                    following day. <span  class="wixui-rich-text__text">During
+                                        this period the contestants are not allowed to communicate by any means, direct
+                                        or indirect, with anyone who knows the problems (except for the usual communication
+                                        with the Scientific Committee during the contest).</span></span></span></span>
+                    </p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text"><span 
+                                        class="wixui-rich-text__text">Before each competition day ends, GA meeting
+                                        attendees should not share problem-related information with anyone who does not
+                                        know the competition problems without an explicit approval from the Scientific
+                                        Committee.</span> The contestants, the GA members and anyone else who has had
+                                    access to the problems must obey any instructions which restrict their access to
+                                    specific parts of the IOI venue.</span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text">If a contestant violates the quarantine, the
+                                    contestant can be subject to disqualification. If some other person associated with
+                                    a national delegation violates the quarantine, then all contestants of that
+                                    delegation may be subject to disqualification.</span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text"><span
+                                        class="wixui-rich-text__text">​</span></span></span></span></p>
+
+                    <h2 class="font_2 wixui-rich-text__text" style="font-size:20px;"><span style="color:#A3340E;"
+                            class="wixui-rich-text__text"><span
+                                style="font-family:arial,ｍｓ ｐゴシック,ms pgothic,돋움,dotum,helvetica,sans-serif;"
+                                class="wixui-rich-text__text"><span style="font-size:20px;"
+                                    class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                        class="wixui-rich-text__text">Supplies</span></span></span></span></h2>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text">In the competition room, blank paper, writing tools,
+                                    Clarification Request Forms, snacks and water will be provided. On the competition
+                                    days, contestants may not bring anything into the competition rooms, except for the
+                                    following items under the proviso that they cannot transmit or store any data in
+                                    electronic or printed or other written format (other than the purpose for which they
+                                    have been designed):</span></span></span></p>
+
+                    <ul class="font_8 wixui-rich-text__text"
+                        style="font-family:poppins-extralight,poppins,sans-serif; font-size:15px; font-weight:bold;">
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">clothing,</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">reasonable jewelry,</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">ID badge (provided by the IOI organizing
+                                            committee),</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">writing utensils,</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">USB keyboards and mice (with no wireless
+                                            communication and no programmable functions whose configuration is retained
+                                            when unplugged),</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">mouse pads,</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">small mascots,</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">English dictionaries,</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">snacks,</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">medicine and medical
+                                            equipment,</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">earplugs and earmuffs.</span></span></span>
+                            </p>
+                        </li>
+                    </ul>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text">Bringing items with the exception of clothing,
+                                    jewelry, and ID badge into the competition room requires prior approval from the
+                                    Technical Committee. A contestant must submit these items by leaving them in a
+                                    designated container provided by the technical committee on their workstation during
+                                    the Practice Competition.</span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text">As soon as the practice competition is over, the
+                                    technical committee will check the submitted items. If there are rejected items, the
+                                    delegation leader of the contestant will be notified and they are allowed to
+                                    resubmit replacements. The approved items will be kept by the technical committee
+                                    and given to the contestants at the start of each competition day. However, during
+                                    the contest, the technical committee may decide to remove any of these approved
+                                    items if they deem that the item’s usage is disruptive to other contestants during
+                                    the contest.</span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text">After the first competition day is over, a contestant
+                                    must leave the submitted items in the same designated container provided by the
+                                    technical committee on their workstation if they want to continue using these items
+                                    on the second competition day. Contestants are allowed to submit new items or
+                                    replacements during the time of analysis for the first competition day, to use them
+                                    on the second competition day.</span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text">At the end of the practice contest and the first
+                                    competition day, any unsubmitted items left on the contestants’ workstation will be
+                                    cleared and not returned to the contestants. Hence, contestants should take all
+                                    items with them at the end of the practice contest and each competition
+                                    day.</span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text">At the end of the second competition day, contestants
+                                    should take all the submitted items with them.</span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text">Any attempts to bring any other items unlisted above
+                                    into the competition rooms are considered cheating. In particular, the following
+                                    items are strictly prohibited on the competitions:</span></span></span></p>
+
+                    <ul class="font_8 wixui-rich-text__text"
+                        style="font-family:poppins-extralight,poppins,sans-serif; font-size:15px; font-weight:bold;">
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">any computing equipment (e.g. calculators,
+                                            laptops, tablets),</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">any keyboards or mice, with wireless
+                                            communication or programmable functions whose configuration is retained when
+                                            unplugged,</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">any books, manuals, written or printed
+                                            materials,</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">any data storage medium (e.g., CD-ROMs, USB
+                                            drives, flash cards, micro-drives),</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">any communication devices (e.g., mobile
+                                            phones, radios of any sort, Bluetooth-enabled devices),</span></span></span>
+                            </p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">watches of any type,</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">any earphones, headphones, microphones and
+                                            speakers.</span></span></span></p>
+                        </li>
+                    </ul>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text">Regarding snacks, note that host organizing committee
+                                    will provide all contestants with some amount of snacks. In cases when a contestant
+                                    would still like to bring in snacks, they should make sure that the snacks are not
+                                    noisy or smelly, and are not disturbing for other contestants in any other way. In
+                                    case of complaints from other contestants during the contest, the snack might be
+                                    removed.</span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text">Any electronic or printed materials provided by the
+                                    organizers during a competition round may be used by the contestants (e.g., a Users
+                                    Guide to the Contest System, or any electronic documentation or reference manuals
+                                    provided in the installed contest environment or on the provided grading
+                                    system).</span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text"><span
+                                        class="wixui-rich-text__text">​</span></span></span></span></p>
+
+                    <h2 class="font_2 wixui-rich-text__text" style="font-size:20px;"><span
+                            style="font-family:arial,ｍｓ ｐゴシック,ms pgothic,돋움,dotum,helvetica,sans-serif;"
+                            class="wixui-rich-text__text"><span style="color:#A3340E;"
+                                class="wixui-rich-text__text"><span style="font-size:20px;"
+                                    class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                        class="wixui-rich-text__text">Starting the
+                                        Competition</span></span></span></span></h2>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text">All contestants must wear their ID badges during the
+                                    competition. Each contestant will have a pre-assigned workstation. Contestants
+                                    should be in their seats by at least 5 minutes prior to the start of the
+                                    competition.</span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text">Contestants must find their assigned computer, sit
+                                    down, and wait for the competition to begin without touching anything (such as
+                                    keyboards, mice, pen, or paper).</span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text"><span
+                                        class="wixui-rich-text__text">​</span></span></span></span></p>
+
+                    <h2 class="font_2 wixui-rich-text__text" style="font-size:20px;"><span style="color:#A3340E;"
+                            class="wixui-rich-text__text"><span
+                                style="font-family:arial,ｍｓ ｐゴシック,ms pgothic,돋움,dotum,helvetica,sans-serif;"
+                                class="wixui-rich-text__text"><span style="font-size:20px;"
+                                    class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                        class="wixui-rich-text__text">Clarification Requests</span></span></span></span>
+                    </h2>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                            class="wixui-rich-text__text"><span style="font-size:15px;"
+                                class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                    class="wixui-rich-text__text"><span
+                                        style="font-family:poppins-extralight,poppins,sans-serif;"
+                                        class="wixui-rich-text__text">During the competition, contestants may ask
+                                        questions concerning competition problems, rules and/or grading. Clarification
+                                        Requests may be expressed either in English or the contestant’s preferred
+                                        language. If required, delegation leaders will translate the Clarification
+                                        Requests into English after they are submitted and before they are being
+                                        processed by the Scientific Committee.</span></span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;">&nbsp;</p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                            class="wixui-rich-text__text"><span style="font-size:15px;"
+                                class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                    class="wixui-rich-text__text"><span
+                                        style="font-family:poppins-extralight,poppins,sans-serif;"
+                                        class="wixui-rich-text__text">The questions should be submitted using the
+                                        grading system whenever possible. If this option is not available, either
+                                        because typing in the contestant’s preferred language is not supported, or due
+                                        to technical issues, contestants can write the question on a printed
+                                        Clarification Request Form.</span></span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;">&nbsp;</p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                            class="wixui-rich-text__text"><span style="font-size:15px;"
+                                class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                    class="wixui-rich-text__text"><span
+                                        style="font-family:poppins-extralight,poppins,sans-serif;"
+                                        class="wixui-rich-text__text">Contestants will receive a reply from the
+                                        Scientific Committee via the grading system, or in writing on the submitted
+                                        Clarification Request Form.</span></span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;">&nbsp;</p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                            class="wixui-rich-text__text"><span style="font-size:15px;"
+                                class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                    class="wixui-rich-text__text"><span
+                                        style="font-family:poppins-extralight,poppins,sans-serif;"
+                                        class="wixui-rich-text__text">Questions regarding the competition problems should
+                                        be phrased, so that a yes/no answer will have a clear meaning. Contestants
+                                        should not ask negative questions such as “Isn’t it true that…?” because the
+                                        yes/no answer to such questions may cause confusion depending on the native
+                                        language of the contestants. Instead, positive questions of the form “Is it true
+                                        that…?” are recommended.</span></span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                            class="wixui-rich-text__text"><span style="font-size:15px;"
+                                class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                    class="wixui-rich-text__text"><span
+                                        style="font-family:poppins-extralight,poppins,sans-serif;"
+                                        class="wixui-rich-text__text">Questions regarding the competition problems will be
+                                        answered with one of the following:</span></span></span></span></p>
+
+                    <ul class="font_8 wixui-rich-text__text"
+                        style=" font-family:poppins-extralight,poppins,sans-serif; font-size:15px; font-weight:bold;">
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                                    class="wixui-rich-text__text"><span style="font-size:15px;"
+                                        class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                            class="wixui-rich-text__text"><span
+                                                style="font-family:poppins-extralight,poppins,sans-serif;"
+                                                class="wixui-rich-text__text">“Yes”</span></span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                                    class="wixui-rich-text__text"><span style="font-size:15px;"
+                                        class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                            class="wixui-rich-text__text"><span
+                                                style="font-family:poppins-extralight,poppins,sans-serif;"
+                                                class="wixui-rich-text__text">“No”</span></span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                                    class="wixui-rich-text__text"><span style="font-size:15px;"
+                                        class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                            class="wixui-rich-text__text"><span
+                                                style="font-family:poppins-extralight,poppins,sans-serif;"
+                                                class="wixui-rich-text__text">“No Comment/Please refer to problem
+                                                statement”</span></span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                                    class="wixui-rich-text__text"><span style="font-size:15px;"
+                                        class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                            class="wixui-rich-text__text"><span
+                                                style="font-family:poppins-extralight,poppins,sans-serif;"
+                                                class="wixui-rich-text__text">“Invalid Question (not a Yes/No Question)”
+                                                – The question is most likely not phrased so that a yes/no answer would
+                                                be meaningful. The contestant is encouraged to rephrase the
+                                                question.</span></span></span></span></p>
+                        </li>
+                    </ul>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;">&nbsp;</p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                            class="wixui-rich-text__text"><span style="font-size:15px;"
+                                class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                    class="wixui-rich-text__text"><span
+                                        style="font-family:poppins-extralight,poppins,sans-serif;"
+                                        class="wixui-rich-text__text">As a general rule, the Scientific Committee only
+                                        answers “Yes” or “No”, when the corresponding part of the problem statement is
+                                        deemed incorrect, ambiguous or potentially
+                                        confusing.</span></span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                            class="wixui-rich-text__text"><span style="font-size:15px;"
+                                class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                    class="wixui-rich-text__text"><span
+                                        style="font-family:poppins-extralight,poppins,sans-serif;"
+                                        class="wixui-rich-text__text">The “No Comment/Please refer to problem statement”
+                                        answer is commonly given in the following
+                                        situations:</span></span></span></span></p>
+
+                    <ul class="font_8 wixui-rich-text__text"
+                        style=" font-family:poppins-extralight,poppins,sans-serif; font-size:15px; font-weight:bold;">
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                                    class="wixui-rich-text__text"><span style="font-size:15px;"
+                                        class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                            class="wixui-rich-text__text"><span
+                                                style="font-family:poppins-extralight,poppins,sans-serif;"
+                                                class="wixui-rich-text__text">The answer to the question clearly follows
+                                                from the problem statement (either directly or
+                                                indirectly).</span></span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                                    class="wixui-rich-text__text"><span style="font-size:15px;"
+                                        class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                            class="wixui-rich-text__text"><span
+                                                style="font-family:poppins-extralight,poppins,sans-serif;"
+                                                class="wixui-rich-text__text">Determining the answer to the question is
+                                                part of the contestant’s problem.</span></span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                                    class="wixui-rich-text__text"><span style="font-size:15px;"
+                                        class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                            class="wixui-rich-text__text"><span
+                                                style="font-family:poppins-extralight,poppins,sans-serif;"
+                                                class="wixui-rich-text__text">The answer to the question is not intended
+                                                to be inferred from the problem statement, and so the contestant should not
+                                                assume either a positive or a negative answer. For example, when the
+                                                problem statement talks about a sequence, the contestant should not assume
+                                                that the elements of the sequence are distinct, unless this is stated in
+                                                the problem, either directly or indirectly.</span></span></span></span></p>
+                        </li>
+                    </ul>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                            class="wixui-rich-text__text"><span style="font-size:15px;"
+                                class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                    class="wixui-rich-text__text"><span
+                                        style="font-family:poppins-extralight,poppins,sans-serif;"
+                                        class="wixui-rich-text__text">Additional elaboration of the answer may be
+                                        provided if the Scientific Committee deems it
+                                        necessary.</span></span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;">&nbsp;</p>
+
+                    <h2 class="font_2 wixui-rich-text__text" style="font-size:20px;"><span 
+                            class="wixui-rich-text__text"><span
+                                style="font-family:arial,ｍｓ ｐゴシック,ms pgothic,돋움,dotum,helvetica,sans-serif;"
+                                class="wixui-rich-text__text"><span style="font-size:20px;"
+                                    class="wixui-rich-text__text"><span style="font-weight:bold; color:#A3340E;"
+                                        class="wixui-rich-text__text">Assistance Requests</span></span></span></span>
+                    </h2>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                            class="wixui-rich-text__text"><span style="font-size:15px;"
+                                class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                    class="wixui-rich-text__text"><span
+                                        style="font-family:poppins-extralight,poppins,sans-serif;"
+                                        class="wixui-rich-text__text">Requests not concerning competition problems, rules
+                                        and/or grading would be considered as Assistance Requests. These Assistance
+                                        Requests should be made by raising a colored card available on the contestant’s
+                                        desk depending on the type of the request. For any other Assistance Requests,
+                                        contestants should raise their hand to call the support staff for
+                                        assistance.</span></span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;">&nbsp;</p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                            class="wixui-rich-text__text"><span style="font-size:15px;"
+                                class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                    class="wixui-rich-text__text"><span
+                                        style="font-family:poppins-extralight,poppins,sans-serif;"
+                                        class="wixui-rich-text__text">The staff members will deliver Clarification
+                                        Request Forms, help locate toilets and refreshments, and assist with computer
+                                        and network problems. They will not answer questions about the competition
+                                        problems.&nbsp;</span></span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                            class="wixui-rich-text__text"><span style="font-size:15px;"
+                                class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                    class="wixui-rich-text__text"><span
+                                        style="font-family:poppins-extralight,poppins,sans-serif;"
+                                        class="wixui-rich-text__text">Contestants should
+                                        not:</span></span></span></span></p>
+
+                    <ul class="font_8 wixui-rich-text__text"
+                        style=" font-family:poppins-extralight,poppins,sans-serif; font-size:15px; font-weight:bold;">
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                                    class="wixui-rich-text__text"><span style="font-size:15px;"
+                                        class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                            class="wixui-rich-text__text"><span
+                                                style="font-family:poppins-extralight,poppins,sans-serif;"
+                                                class="wixui-rich-text__text">attempt to fix, debug or even check for
+                                                computer or network problems themselves; instead, they should ask for
+                                                assistance and continue working on the
+                                                problems,</span></span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                                    class="wixui-rich-text__text"><span style="font-size:15px;"
+                                        class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                            class="wixui-rich-text__text"><span
+                                                style="font-family:poppins-extralight,poppins,sans-serif;"
+                                                class="wixui-rich-text__text">leave their seats until allowed to do so
+                                                by the support staff.&nbsp;</span></span></span></span></p>
+                        </li>
+                    </ul>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;">&nbsp;</p>
+
+                    <h2 class="font_2 wixui-rich-text__text" style="font-size:20px;"><span
+                            style="font-family:arial,ｍｓ ｐゴシック,ms pgothic,돋움,dotum,helvetica,sans-serif;"
+                            class="wixui-rich-text__text"><span style="font-size:20px;"
+                                class="wixui-rich-text__text"><span style="color:#A3340E;"
+                                    class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                        class="wixui-rich-text__text">Ending the Competition</span></span></span></span>
+                    </h2>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text">Three warnings will be given at 15 minutes, 5 minutes,
+                                    and 1 minute before the end of the competition. Each warning will be given by an
+                                    audible signal. The end of the competition will be announced both verbally and by an
+                                    audible signal. At the announcement ending the competition, contestants must
+                                    immediately stop working <span 
+                                        class="wixui-rich-text__text">(unless they request extra time, please see the
+                                        next paragraph) </span>and wait quietly at their desks without touching the
+                                    computers or anything on their desks. An additional announcement will be made
+                                    instructing them to leave their tables and exit the competition
+                                    room.</span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;">&nbsp;</p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text">If a contestant thinks that they should be given extra
+                                    time for the competition, they should send a Clarification Request either through
+                                    the contest system or via a Clarification Request Form as early as possible. They
+                                    should not leave their desk or talk to other contestants nor team leaders after the
+                                    contest ends and should continue to work. The Scientific Committee will then decide
+                                    whether to award the extra time, and inform the contestant of the decision as early
+                                    as possible. If some amount of extra time is granted, all submissions that are made
+                                    during contest time + extra time would be graded.</span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text">However, note that the following issues will not be
+                                    accepted as grounds for requesting for extra time:</span></span></span></p>
+
+                    <ul class="font_8 wixui-rich-text__text"
+                        style="font-family:poppins-extralight,poppins,sans-serif; font-size:15px; font-weight:bold;">
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                                    class="wixui-rich-text__text"><span style="font-size:15px;"
+                                        class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                            class="wixui-rich-text__text"><span
+                                                style="font-family:poppins-extralight,poppins,sans-serif;"
+                                                class="wixui-rich-text__text">Issues arising from the usage of
+                                                programming tools, in particular IDEs (e.g. VS Code and Eclipse) and
+                                                debuggers. Contestants should be competent in the usage of the tools
+                                                they decide to use. However, members of the technical committee may
+                                                provide assistance.</span></span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                                    class="wixui-rich-text__text"><span style="font-size:15px;"
+                                        class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                            class="wixui-rich-text__text"><span
+                                                style="font-family:poppins-extralight,poppins,sans-serif;"
+                                                class="wixui-rich-text__text">Issues that are resolved within 10
+                                                minutes, unless they happen less than 10 minutes before the end of the
+                                                contest.</span></span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">The contestant loses a significant amount of
+                                            time when trying to solve technical issues by
+                                            themselves.</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">Instances where the contestant did not inform
+                                            any support staff or made any clarification request on the issue at
+                                            all.</span></span></span></p>
+                        </li>
+                    </ul>
+
+                    <h2 class="font_2 wixui-rich-text__text" style="font-size:15px;">&nbsp;</h2>
+
+                    <h2 class="font_2 wixui-rich-text__text" style="font-size:20px;"><span
+                            style="font-family:arial,ｍｓ ｐゴシック,ms pgothic,돋움,dotum,helvetica,sans-serif;"
+                            class="wixui-rich-text__text"><span style="font-size:20px;"
+                                class="wixui-rich-text__text"><span style="color:#A3340E;"
+                                    class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                        class="wixui-rich-text__text">Cheating</span></span></span></span></h2>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                            class="wixui-rich-text__text"><span style="font-size:15px;"
+                                class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                    class="wixui-rich-text__text"><span
+                                        style="font-family:poppins-extralight,poppins,sans-serif;"
+                                        class="wixui-rich-text__text">Violating any of the following rules is considered
+                                        cheating, and may result in disqualification:</span></span></span></span></p>
+
+                    <ul class="font_8 wixui-rich-text__text"
+                        style="font-family:poppins-extralight,poppins,sans-serif; font-size:15px; font-weight:bold;">
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                                    class="wixui-rich-text__text"><span style="font-size:15px;"
+                                        class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                            class="wixui-rich-text__text"><span
+                                                style="font-family:poppins-extralight,poppins,sans-serif;"
+                                                class="wixui-rich-text__text">contestants must use only the workstation
+                                                and account assigned to them on each competition
+                                                day;</span></span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">contestants must not try to tamper with or
+                                            compromise the grading system;</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">contestants must not attempt to gain access to
+                                            root or any account other than the one assigned to
+                                            them;</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">contestants must not attempt to store
+                                            information in any part of the file system other than the home directory for
+                                            their account or the /tmp directory;</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">contestants must not touch any workstation
+                                            other than the one assigned to them;</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">contestants must not attempt to access any
+                                            machine on the network or the Internet, other than to access the contest
+                                            system for usual purposes (e.g. submitting problems, viewing submission
+                                            results, downloading sample data, submitting Clarification Requests), and
+                                            call for the support staff through the system; even running a single “ping”
+                                            command is strictly prohibited and may lead to
+                                            disqualification;</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">contestants must not attempt to reboot or
+                                            alter the boot sequence of any workstation;</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">contestants must not communicate with other
+                                            people during the competition, other than the support staff, and/or
+                                            Scientific/Technical Committee members;</span></span></span></p>
+                        </li>
+                        <li class="wixui-rich-text__text">
+                            <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span
+                                    style="font-size:15px;" class="wixui-rich-text__text"><span
+                                        style="font-weight:bold;" class="wixui-rich-text__text"><span
+                                            style="font-family:poppins-extralight,poppins,sans-serif;"
+                                            class="wixui-rich-text__text">contestants must not reverse engineer the test
+                                            data in order to solve the problems in highly test-data-dependent manners.
+                                            One example of such behavior is using the feedback system to extract the
+                                            test data and then applying this knowledge to build solutions adapted to the
+                                            specific test cases in the grading system. This behavior would be considered
+                                            cheating only if a contestant submits a solution that would solve
+                                            significantly fewer test cases correctly if the test data were replaced by
+                                            an equivalent set of test cases (e.g., one generated with a different random
+                                            seed).</span></span></span></p>
+                        </li>
+                    </ul>
+
+                    <h2 class="font_2 wixui-rich-text__text" style="font-size:15px;">&nbsp;</h2>
+
+                    <h2 class="font_2 wixui-rich-text__text" style="font-size:20px;"><span
+                            style="font-family:arial,ｍｓ ｐゴシック,ms pgothic,돋움,dotum,helvetica,sans-serif;"
+                            class="wixui-rich-text__text"><span style="font-size:20px;"
+                                class="wixui-rich-text__text"><span style="color:#A3340E;"
+                                    class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                        class="wixui-rich-text__text">Appeal Process</span></span></span></span></h2>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span 
+                            class="wixui-rich-text__text"><span style="font-size:15px;"
+                                class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                    class="wixui-rich-text__text"><span
+                                        style="font-family:poppins-extralight,poppins,sans-serif;"
+                                        class="wixui-rich-text__text">The test cases used for grading will be made
+                                        available electronically in the competition area during the scheduled time for
+                                        analysis after each competition. Contestants and team leaders may use the
+                                        contestant’s workstations to verify that the grades are assessed
+                                        correctly.</span></span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;">&nbsp;</p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text">A Team Leader may file an appeal by completing an
+                                    Appeal Form, and submitting it to the Scientific Committee at least 60 minutes prior
+                                    to the final GA meeting of that competition day. The GA will be informed of where
+                                    Appeal Forms can be collected, and where they can submit them to the Scientific
+                                    Committee. Every appeal will be reviewed by the Scientific Committee and the team
+                                    leader will be notified of the committee’s decision. All appeals and their <span
+                                         class="wixui-rich-text__text">resolution </span>will be
+                                    summarized at the final GA meeting of that competition day.</span></span></span></p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text">In the event that every submission of a problem should be
+                                    re-graded and re-scored as a consequence of an accepted appeal, note that re-scoring
+                                    may result in a higher or lower score for any contestant. Should anyone’s score
+                                    change after grading results have been published, new results will be published
+                                    again. Score changes resulting from this are not appealable.</span></span></span>
+                    </p>
+
+                    <p class="font_8 wixui-rich-text__text" style="font-size:15px;"><span style="font-size:15px;"
+                            class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                class="wixui-rich-text__text"><span
+                                    style="font-family:poppins-extralight,poppins,sans-serif;"
+                                    class="wixui-rich-text__text"><span
+                                        class="wixui-rich-text__text">​</span></span></span></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <footer class="site-footer" style="padding-bottom: 16px; padding-top: 32px;">
+
+        <div class="l-container site-footer__container">
+            <div class="site-footer__row site-footer__row--navigation">
+                <div class="site-footer__menu-col">
+                    <h2 class="site-footer__menu-heading">Security &amp; Brand</h2>
+                    <nav class="site-footer__nav" aria-label="Security &amp; Brand Navigation">
+
+                        <ol class="site-footer__nav-list">
+                            <li class="footer-one__item"><a href="https://www.harvard.edu/copyright-issue/"
+                                    class="footer-one__action" data-attribute="report-copyright-infringement-2">Report
+                                    Copyright Infringement</a></li>
+                            <li class="footer-one__item"><a href="https://www.harvard.edu/security-issue/"
+                                    class="footer-one__action" data-attribute="report-security-issue-2">Report Security
+                                    Issue</a></li>
+                            <li class="footer-one__item"><a href="https://trademark.harvard.edu/pages/trademark-notice"
+                                    class="footer-one__action" data-attribute="trademark-notice">Trademark Notice</a>
+                            </li>
+                        </ol>
+
+                    </nav>
+                </div>
+                <div class="site-footer__menu-col">
+                    <h2 class="site-footer__menu-heading">Website</h2>
+                    <nav class="site-footer__nav" aria-label="Website Navigation">
+
+                        <ol class="site-footer__nav-list">
+                            <li class="footer-two__item"><a href="https://accessibility.harvard.edu/"
+                                    class="footer-two__action" data-attribute="accessibility">Accessibility</a></li>
+                            <li class="footer-two__item"><a
+                                    href="https://accessibility.huit.harvard.edu/digital-accessibility-policy"
+                                    class="footer-two__action" data-attribute="digital-accessibility">Digital
+                                    Accessibility</a></li>
+                            <li class="footer-two__item"><a rel="privacy-policy"
+                                    href="https://www.harvard.edu/privacy-statement/" class="footer-two__action"
+                                    data-attribute="9826">Privacy statement</a></li>
+                        </ol>
+
+                    </nav>
+                </div>
+                <div class="site-footer__menu-col">
+                    <h2 class="site-footer__menu-heading">Get In Touch</h2>
+                    <nav class="site-footer__nav" aria-label="Get In Touch Navigation">
+
+                        <ol class="site-footer__nav-list">
+                            <li class="footer-three__item"><a href="https://www.harvard.edu/contact-harvard"
+                                    class="footer-three__action" data-attribute="contact-harvard">Contact Harvard</a>
+                            </li>
+                            <li class="footer-three__item"><a href="https://www.harvard.edu/maps-directions"
+                                    class="footer-three__action" data-attribute="maps-directions">Maps &amp;
+                                    Directions</a></li>
+                            <li class="footer-three__item"><a href="http://hr.harvard.edu/jobs"
+                                    class="footer-three__action" data-attribute="jobs">Jobs</a></li>
+                        </ol>
+
+                    </nav>
+                </div>
+            </div>
+
+            <div class="site-footer__row site-footer__row--secondary" style="justify-content: center;">
+                <div class="site-footer__logo ">
+                    <a href="https://www.harvard.edu/">
+                        <img src="icons/footer-logo.svg" alt="Harvard University">
+                    </a>
+                </div>
+            </div>
+            <br>
+            <div class="site-footer__row site-footer__row--secondary" style="justify-content: center;">
+                <div class="site-footer__copyright" style="width: fit-content;">
+                    <p>Copyright © 2024 The President and Fellows of Harvard College</p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </footer>
+
+
+
+
+
+    <div class="modal fade" id="jumpModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h4 class="modal-title">Quick links</h4>
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+
+                <div class="modal-body mt-1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6 col-md-4">
+                                <div data-link-click-to="/" class="text-center p-2 mb-4" style="cursor: pointer;">
+                                    <img src="icons/fill/home.png">
+                                    <p class="m-0 p-0 mt-1">Home</p>
+                                </div>
+                            </div>
+
+
+                            <div class="col-6 col-md-4">
+                                <div data-link-click-to="/page/organization/4" class="text-center p-2 mb-4"
+                                    style="cursor: pointer;">
+                                    <img src="icons/fill/leader.png">
+                                    <p class="m-0 p-0 mt-1">Organization</p>
+                                </div>
+                            </div>
+
+
+                            <div class="col-6 col-md-4">
+                                <div data-link-click-to="/page/members/7" class="text-center p-2 mb-4"
+                                    style="cursor: pointer;">
+                                    <img src="icons/fill/globe.png">
+                                    <p class="m-0 p-0 mt-1">Members</p>
+                                </div>
+                            </div>
+
+
+                            <div class="col-6 col-md-4">
+                                <div data-link-click-to="http://stats.ioinformatics.org/" class="text-center p-2 mb-4"
+                                    style="cursor: pointer;">
+                                    <img src="icons/fill/winner.png">
+                                    <p class="m-0 p-0 mt-1">Stats</p>
+                                </div>
+                            </div>
+
+
+                            <div class="col-6 col-md-4">
+                                <div data-link-click-to="/page/ioi-journal-contents/3" class="text-center p-2 mb-4"
+                                    style="cursor: pointer;">
+                                    <img src="icons/fill/book.png">
+                                    <p class="m-0 p-0 mt-1">Journal</p>
+                                </div>
+                            </div>
+
+
+                            <div class="col-6 col-md-4">
+                                <div data-link-click-to="/page/contact/13" class="text-center p-2 mb-4"
+                                    style="cursor: pointer;">
+                                    <img src="icons/fill/mail.png">
+                                    <p class="m-0 p-0 mt-1">Contacts</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+
+
+    <script src="js/public-scripts.js"></script>
+    <script>setTimeout(() => {
+            document.getElementById("inactivator").classList.remove("active");
+        }, 200);</script>
+
+
+</body>
+
+</html>
