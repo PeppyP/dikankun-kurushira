@@ -1,4 +1,5 @@
 User-agent: *
-Disallow: /flags/
-Disallow: /files/
-Disallow: /icons/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /junk_primaries/
+Disallow: /junk/
