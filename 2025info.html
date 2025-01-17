@@ -365,7 +365,7 @@ html {
 <div style="position: relative;  color: white; background-image: url(images/harvard-library.jpg); background-repeat: no-repeat; background-position: center 180%; opacity: 1; background-attachment: fixed;">
 
     <div class="row">
-        <div class="col-12">
+        <div class="col-12" id="toEdit0">
             <h2 style="margin-top: 90px; margin-bottom: 12px; font-size: 4rem; text-align: center; font-weight: 1000; color: #fff;"><span style="background-color: #222222">Info for HPC<sup>3</sup> 2025</h2></span>
             <p style="margin-bottom: 50px; text-align: center; font-size: 1.5rem; font-weight: 500; color: #000;"></p>
         </div>
@@ -393,7 +393,7 @@ html {
 </div>
 
 <div class="easy-light-gray-bg" style="background-color: #FFF;">
-    <div class="container" style="padding-top: 32px; padding-bottom: 32px; max-width: 100%; padding-right: 5%; padding-left: 5%;">
+    <div class="container" style="padding-top: 32px; padding-bottom: 32px; max-width: 100%; padding-right: 5%; padding-left: 5%;" id="toEdit1">
         <p style="margin-left: 25%; margin-right: 20%; margin-bottom: 12px; font-size: 1.5rem; text-align: left; font-weight: 100; color: #000;">
             HPC<sup>3</sup> is an international programming contest for precollege students held anually at Harvard University in Boston made for the purpose of fostering and developing computational logic, problem-solving aptitude, and practial skill of the strongest young minds in the field of programming.
         </p>
@@ -444,7 +444,7 @@ html {
 </style>
 
 <div class="easy-light-gray-bg" style="background-color: #FFF;">
-    <div class="container" style="padding-top: 32px; padding-bottom: 32px; max-width: 100%; padding-right: 5%; padding-left: 5%;">
+    <div class="container" style="padding-top: 32px; padding-bottom: 32px; max-width: 100%; padding-right: 5%; padding-left: 5%;" id="toEdit2">
         <p style="margin-left: 20%; margin-right: 16%; font-size: 2rem; text-align: center; font-weight: 1000; color: #000;">The schedule for problems and competition events for HPC<sup>3</sup> 2025.</p>
         <p style="margin-left: 20%; margin-right: 16%; margin-bottom: 12px; font-size: 1.75rem; text-align: center; color: #000; line-height: 1.4;">There are also many events avalible to contestants during their free time between contest rounds which are not included in this schedule. Additionally, contestants may arrive early and be given their dorm.</p>
         <ul style="margin-left: 30%; margin-right: 20%; margin-bottom: 12px; font-size: 1.5rem; text-align: left; list-style-type: disc;">
@@ -633,6 +633,30 @@ html {
 
 
     <script src="js/public-scripts.js"></script>
+	
+    <script>
+	if (getViewport()[0] < 400){
+            document.getElementById("toEdit0").children[0].style.marginTop = "128px";
+            document.getElementById("toEdit1").children[0].style.marginLeft = "5%";
+            document.getElementById("toEdit1").children[0].style.marginLeft = "4%";
+            document.getElementById("toEdit1").children[1].style.marginLeft = "5%";
+            document.getElementById("toEdit1").children[1].style.marginLeft = "4%";
+            document.getElementById("toEdit1").children[2].style.marginLeft = "5%";
+            document.getElementById("toEdit1").children[2].style.marginLeft = "4%";
+            document.getElementById("toEdit1").children[3].style.marginLeft = "5%";
+            document.getElementById("toEdit1").children[3].style.marginLeft = "4%";
+            document.getElementById("toEdit1").children[4].style.marginLeft = "5.5%";
+            document.getElementById("toEdit1").children[4].style.marginLeft = "3%";
+		
+            document.getElementById("toEdit2").children[0].style.marginLeft = "5%";
+            document.getElementById("toEdit2").children[0].style.marginLeft = "4%";
+            document.getElementById("toEdit2").children[1].style.marginLeft = "5%";
+            document.getElementById("toEdit2").children[1].style.marginLeft = "4%";
+            document.getElementById("toEdit2").children[2].style.marginLeft = "6%";
+            document.getElementById("toEdit2").children[2].style.marginLeft = "5%";
+	};
+    </script>
+	
     <script>setTimeout(() => {
         document.getElementById("inactivator").classList.remove("active");
         }, 200);</script>
