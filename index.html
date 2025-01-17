@@ -1490,22 +1490,22 @@ removed
 
     <div style="color: white; ">
 
-        <div class="container" style="padding-top: 60px; padding-bottom: 80px; text-align: center;">
+        <div class="container" id="toEdit0" style="padding-top: 60px; padding-bottom: 80px; text-align: center;">
 
             <div style="display: flex; justify-content: center;align-content: center; align-items: center; color: #000; font-size: 96px;">
                 <div style="margin-right: 7%; margin-left: 7%; text-align: center;">
                     <p style="font-weight: 1000;">276</p>
-                    <p style="font-size: 36px; margin-top: -16px;">Competitors</p>
+                    <p style="font-size: 0.33em; margin-top: -0.165px;">Competitors</p>
                 </div>
                 <p style="font-weight: 1000;">from</p>
                 <div style="margin-right: 7%; margin-left: 7%; text-align: center;">
                     <p style="font-weight: 1000;">24,000</p>
-                    <p style="font-size: 36px; margin-top: -16px;">Candidates</p>
+                    <p style="font-size: 0.33em; margin-top: -0.165px;">Candidates</p>
                 </div>
                 <p style="font-weight: 1000;">from</p>
                 <div style="margin-right: 7%; margin-left: 7%; text-align: center;">
                     <p style="font-weight: 1000;">92</p>
-                    <p style="font-size: 36px; margin-top: -16px;">Countries</p>
+                    <p style="font-size: 0.33em; margin-top: -0.165px;">Countries</p>
                 </div>
             </div>
         </div>
@@ -1513,7 +1513,7 @@ removed
 
     <div class="" style="background-color: crimson;">
 
-        <div class="" style="display: flex; flex-wrap: nowrap; color: #000;">
+        <div class="" id="toEdit1" style="display: flex; flex-wrap: nowrap; color: #000;">
             <div style="width: 50%;">
                 <img src="images/hpc3_coding.jpg">
             </div>
@@ -1525,9 +1525,11 @@ removed
             </div>
         </div>
     </div>
-
+    <div id="toEdit2">
+        
+    </div>
     <div class="" style="background-color: #2e45bd;">
-        <div class="" style="display: flex; flex-wrap: nowrap; color: #000;">
+        <div class="" id="toEdit3" style="display: flex; flex-wrap: nowrap; color: #000;">
             <div style="width: 50%; text-align: center; padding-top: 36px;">
                 <p style="font-weight: 1000; font-size: 64px;">Why you should join</p>
                 <hr>
@@ -1559,7 +1561,7 @@ removed
             </div>
 
             <div class="row">
-                <div class="col-12">
+                <div class="col-12" id="toEdit4">
                     <ul class="multiple-columns-list list-image-container with-light-box-shadows" style="columns: 5;">
                         <li><img src="flags/au.png" height="25" class="d-inline-block align-top"
                                 style="width: auto; height: 50px;" alt=""><br>HPC<sup>3</sup> 2024<br>
@@ -1806,7 +1808,20 @@ removed
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
         integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
-
+    <script>
+        if (getViewport()[0] < 400){
+            document.getElementById("toEdit0").children[0].style.fontSize = 48+"px";
+            document.getElementById("toEdit1").innerHTML = document.getElementById("toEdit1").children[1].innerHTML;
+            document.getElementById("toEdit1").style.flexDirection = "column"; 
+            document.getElementById("toEdit1").style.textAlign = "center"; 
+            document.getElementById("toEdit1").style.paddingBottom = "4%"; 
+            document.getElementById("toEdit2").innerHTML = document.getElementById("toEdit3").children[1].innerHTML;
+            document.getElementById("toEdit2").children[0].style.width = "100%"
+            document.getElementById("toEdit3").innerHTML = document.getElementById("toEdit3").children[0].innerHTML;
+            document.getElementById("toEdit3").style.width = "100%";
+            document.getElementById("toEdit3").style.paddingBottom = "4%";
+        };
+    </script>
 
     <script src="js/public-scripts.js"></script>
 
