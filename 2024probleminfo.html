@@ -364,7 +364,7 @@ html {
 <div style="position: relative;  color: white; background-image: url(images/hpc_practising.jpg); background-repeat: no-repeat; background-position: 65% 220%; opacity: 1; background-attachment: fixed;">
 
     <div class="row">
-        <div class="col-12">
+        <div class="col-12" id="toEdit0">
             <h2 style="margin-top: 90px; margin-bottom: 12px; font-size: 4rem; text-align: center; font-weight: 1000; color: #FFF;"><span style="background-color: #222222;">Problems - 2024</span></h2>
             <p style="margin-bottom: 50px; text-align: center; font-size: 1.5rem; font-weight: 500; color: #000;"></p>
         </div>
@@ -393,7 +393,7 @@ html {
         </div>
         
         
-        <div style="padding-left: 25%;">
+        <div style="padding-left: 25%;" id="toEdit1">
             <p class="problemoverall"><b>Problem 0: </b> A + B</p>
             <p class="problemdescriptor">— Maximum points: 0</p>
             <p class="problemdescriptor">— Problem Statements: <a class="plink" target="_blank" href="problems/2024/0_en.pdf">English</a>, <a class="plink" target="_blank" href="problems/2024/0_es.pdf">Español</a>, <a class="plink" target="_blank" href="problems/2024/0_cn.pdf">中文</a>, <a class="plink" target="_blank" href="problems/2024/0_ar.pdf">أرابيك</a>, <a class="plink" target="_blank" href="problems/2024/0_ru.pdf">Русский</a>, <a class="plink" target="_blank" href="problems/2024/0_fr.pdf">Français</a>. </p>
@@ -556,6 +556,14 @@ html {
 
 
     <script src="js/public-scripts.js"></script>
+
+    <script>
+	if (getViewport()[0] < 400){
+            document.getElementById("toEdit0").children[0].style.marginTop = "128px";
+            document.getElementById("toEdit1").style.paddingLeft = "5%";
+	};
+    </script>
+	
     <script>setTimeout(() => {
         document.getElementById("inactivator").classList.remove("active");
         }, 200);</script>
