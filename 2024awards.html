@@ -469,7 +469,8 @@ html {
 
     <script src="js/public-scripts.js"></script>
 
-    <script>
+    <script>setTimeout(() => {
+        document.getElementById("inactivator").classList.remove("active");
 	if (getViewport()[0] < 400){
             document.getElementById("toEdit0").children[0].style.marginTop = "128px";
             document.getElementById("toEdit1").children[0].style.maxWidth = "90%";
@@ -477,10 +478,6 @@ html {
 	    document.getElementById("toEdit1").children[3].children[1].style.fontSize = "6px";
 	    document.getElementById("toEdit1").children[3].children[1].children[5].style.fontSize = "8px";
 	};
-    </script>
-	
-    <script>setTimeout(() => {
-        document.getElementById("inactivator").classList.remove("active");
         }, 200);</script>
 
 
